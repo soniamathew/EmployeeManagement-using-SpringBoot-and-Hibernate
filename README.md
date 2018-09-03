@@ -11,7 +11,7 @@ EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
 
 
 
-**** In MySQL.prefpane
+**** In MySQL.prefpane :
 
      Start the mysql server in MySQL server 
 
