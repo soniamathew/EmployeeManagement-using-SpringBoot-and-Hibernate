@@ -63,16 +63,27 @@ Spring Boot makes it easy to create stand-alone, production-grade Spring based A
 Hibernate understands the mappings that we add between objects and tables and it ensures that data is stored/retrieved from the database based on the mappings.
 Hibernate also provides additional features on top of JPA.
 
-Here in this project we are having the following :
+Here in this project we are having the following classes:
 
-The POJO class : Employee ,inside the package : com.employee.employee.sample.entity .
-The Controller class : EmployeeManagementController, inside the package : com.employee.employee.controller .
-The Service Implemenation class : EmployeeManagementService, inside the package : com.employee.employee.service .
-The Service Interface : IEmployeeManagementService, inside the package : com.employee.employee.service .
-The main class or the Application classs : EmployeeApplication, inside the package : com.employee.employee .
-The DAO Interface : EmployeeDaoInterface, inside the package : com.employee.employee.sample.dao . (it extends the CRUD repository)
+The POJO class : 
+         Employee ,inside the package : com.employee.employee.sample.entity .
+
+The Controller class :
+         EmployeeManagementController, inside the package : com.employee.employee.controller .
+
+The Service Implemenation class : 
+         EmployeeManagementService, inside the package : com.employee.employee.service .
+
+The Service Interface : 
+         IEmployeeManagementService, inside the package : com.employee.employee.service .
+
+The main class or the Application classs :
+         EmployeeApplication, inside the package : com.employee.employee .
+
+The DAO Interface : 
+         EmployeeDaoInterface, inside the package : com.employee.employee.sample.dao . (it extends the CRUD repository)
+
 There is also an AppConfig class inside the package : com.employee.employee.sample.config , but this is used only if we are using datasource,since we are using Hibernate it was commented.
 
-When we run the Application, the tomcat will get started at port 9000, then start the MySQL server and connect the local host in the MySQL Workbench,
-after hitting the rest api in postman, the control will go to the EmployeeManagementController and from there control goes to EmployeeManagementService and EmployeeDaoInterface and then it responds with various status after performing the operations.
+When we run the Application, the tomcat will get started at port 9000, then start the MySQL server and connect the local host in the MySQL Workbench, after hitting the Rest API in Postman, the control will go to the EmployeeManagementController and from there control goes to EmployeeManagementService and EmployeeDaoInterface and then it responds with various status after performing the operations.
 
