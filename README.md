@@ -38,10 +38,17 @@ EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
      
    * CRUD OPERATIONS :   (CREATE, READ BY ID, UPDATE AND DELETE BY ID)
      
-     create : method : POST , API endpoint : http://localhost:9000/employee/api/create
-     read : method : GET , API endpoint : http://localhost:9000/employee/api/read/{id}              -give the id.
-     update : method : PUT , API endpoint : http://localhost:9000/employee/api/update
-     delete : method : DELETE , API endpoint : http://localhost:9000/employee/api/delete/{id}       -give the id.
+     create : 
+             method : POST , API endpoint : http://localhost:9000/employee/api/create
+     
+     read : 
+           method : GET , API endpoint : http://localhost:9000/employee/api/read/{id}              -give the id.
+     
+     update : 
+           method : PUT , API endpoint : http://localhost:9000/employee/api/update
+    
+    delete : 
+           method : DELETE , API endpoint : http://localhost:9000/employee/api/delete/{id}       -give the id.
      
      After hitting the Rest APIs and the MySQL database, the results wil be displayed in postman as well as console of the IntelliJ IDEA.
 
