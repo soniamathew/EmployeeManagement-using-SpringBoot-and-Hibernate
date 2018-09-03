@@ -46,9 +46,10 @@ EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
      
      update : 
            method : PUT , API endpoint : http://localhost:9000/employee/api/update
-    
-    delete : 
-           method : DELETE , API endpoint : http://localhost:9000/employee/api/delete/{id}       -give the id.
+     
+     delete : 
+           method : DELETE , API endpoint : http://localhost:9000/employee/api/delete/{id}         -give the id.
+     
      
      After hitting the Rest APIs and the MySQL database, the results wil be displayed in postman as well as console of the IntelliJ IDEA.
 
