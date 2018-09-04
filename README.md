@@ -4,7 +4,7 @@ EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
 
 
 
-*****  PRE REQUISITES *****
+  PRE REQUISITES 
 ---------------------------
 
 
@@ -35,7 +35,7 @@ Configurations :
 
 
                         
-***** COMPILING AND EXECUTING ****
+ COMPILING AND EXECUTING 
 ----------------------------------
 
 
@@ -93,7 +93,7 @@ Configurations :
 
 
 
-***** PROGRAM LOGIC *****
+ PROGRAM LOGIC 
 -------------------------
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that can run.
