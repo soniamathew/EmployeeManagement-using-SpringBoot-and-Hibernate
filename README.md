@@ -89,13 +89,14 @@ In MySQL.prefpane :
 
      Build the project, in the terminal using : ./gradlew build or click gradle tab and then click /Task/build .
       
-      ![Here](https://github.com/soniamathew/EmployeeManagement-using-SpringBoot-and-Hibernate/blob/master/1.png)
+      
+ ![Screenshot](https://github.com/soniamathew/EmployeeManagement-using-SpringBoot-and-Hibernate/blob/master/1.png)
     
      
      
      Run the Employee Application.
    
-       ![here](https://github.com/soniamathew/EmployeeManagement-using-SpringBoot-and-Hibernate/blob/master/2.png)
+  ![Screenshot](https://github.com/soniamathew/EmployeeManagement-using-SpringBoot-and-Hibernate/blob/master/2.png)
      
      
      Then the SpringBoot Application class will be run, tomcat will get started on port 9000 and mysql connection is also          made.
