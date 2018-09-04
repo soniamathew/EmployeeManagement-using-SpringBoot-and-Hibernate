@@ -88,6 +88,7 @@ In MySQL.prefpane :
  In IntelliJ IDEA :
 
      Build the project, in the terminal using : ./gradlew build or click gradle tab and then click /Task/build .
+      
       ![Alt Text](https://github.com/soniamathew/EmployeeManagement-using-SpringBoot-and-Hibernate/blob/master/1.png)
     
      
