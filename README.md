@@ -45,7 +45,7 @@ Downloading the project from GitHub :
     
     Open your command line or Terminal application and enter the directory where you would like to copy the repository : cd ~/
     
-    Clone the repository by replacing <URL> with clone URL you copied in the previous step. The repository will be cloned         into a new directory in this location :  git clone <URL>
+    Clone the repository by replacing <URL> with clone URL you copied in the previous step. The repository will be cloned into a new directory in this location :  git clone <URL>
      
     Navigate into the directory of the repository you just created. Replace with your own repository's name :  
     cd <REPOSITORY-NAME>
