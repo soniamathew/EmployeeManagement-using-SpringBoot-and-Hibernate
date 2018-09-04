@@ -39,7 +39,7 @@ Configurations :
 ----------------------------------
 
 
-**** In IntelliJ IDEA :
+ In IntelliJ IDEA :
 
      Build the project using : ./gradlew build
      Run the Employee Application.
@@ -47,13 +47,13 @@ Configurations :
 
 
 
-**** In MySQL.prefpane :
+ In MySQL.prefpane :
 
      Start the mysql server in MySQL server 
 
 
 
-**** In the MySQLWokrkbench :
+ In the MySQLWokrkbench :
 
     * First create a database named employeez using the query :
     CREATE SCHEMA `employeez` ;
@@ -68,11 +68,11 @@ Configurations :
 
 
 
-**** In Postman :
+ In Postman :
 
      Make the Rest API requests as follows :-
      
-   * CRUD OPERATIONS :   (CREATE, READ BY ID, UPDATE AND DELETE BY ID)
+     CRUD OPERATIONS :   (CREATE, READ BY ID, UPDATE AND DELETE BY ID)
      
      create : 
              method : POST , API endpoint : http://localhost:9000/employee/api/create
