@@ -1,6 +1,9 @@
 EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
 
 
+
+
+
 *****  PRE REQUISITES *****
 ---------------------------
 
@@ -30,9 +33,11 @@ Configurations :
 
 
 
+
                         
 ***** COMPILING AND EXECUTING ****
 ----------------------------------
+
 
 **** In IntelliJ IDEA :
 
@@ -85,10 +90,13 @@ Configurations :
      After hitting the Rest APIs and the MySQL database, the results wil be displayed in postman as well as console of the IntelliJ IDEA.
 
 
+
+
+
 ***** PROGRAM LOGIC *****
 -------------------------
 
-*Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that can run.
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that can run.
 
 Hibernate understands the mappings that we add between objects and tables and it ensures that data is stored/retrieved from the database based on the mappings.
 Hibernate also provides additional features on top of JPA.
