@@ -1,7 +1,38 @@
 EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
 
-********************** COMPILING AND EXECUTING ******************************
------------------------------------------------------------------------------
+
+***********  PRE REQUISITES *********
+-------------------------------------
+
+
+Languages to be known : 
+                       
+                       Java 
+                       SQL 
+                       
+Framework to be familiarised : 
+
+                              Spring Boot with Gradle
+                              Hibernate
+
+Installations :
+
+    IDE to be installed    : Download and install IntelliJ IDEA from https://www.jetbrains.com/idea/download/#section=mac .
+    
+    Database requirements  : Download and install MySQL 8.0.12 from https://dev.mysql.com/downloads/mysql/ .
+                             Download and install MySQL Workbench from https://dev.mysql.com/downloads/workbench/ .
+    
+    REST Web Service Requirements : Download and install Postman from https://www.getpostman.com/apps
+
+Configurations : 
+
+        The configurations for the database connection was given in the application.properties file in the project resources.
+
+
+
+                        
+********** COMPILING AND EXECUTING **********
+---------------------------------------------
 
 **** In IntelliJ IDEA :
 
@@ -54,8 +85,8 @@ EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
      After hitting the Rest APIs and the MySQL database, the results wil be displayed in postman as well as console of the IntelliJ IDEA.
 
 
-******************************** PROGRAM LOGIC ******************************
------------------------------------------------------------------------------
+************ PROGRAM LOGIC **************
+-----------------------------------------
 
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that can run.
