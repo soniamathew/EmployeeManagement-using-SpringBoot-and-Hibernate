@@ -35,7 +35,7 @@ Installations :
 
 Downloading the project from GitHub :
      
-    Navigate to your repository’s Code tab.
+    Navigate to the repository’s Code tab.
     
     Click Clone or download.
     
