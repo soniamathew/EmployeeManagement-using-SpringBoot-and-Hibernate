@@ -107,18 +107,55 @@ In MySQL.prefpane :
      
      CRUD OPERATIONS :   (CREATE, READ BY ID, UPDATE AND DELETE BY ID)
      
-     create : 
+     Create : 
              method : POST , API endpoint : http://localhost:9000/employee/api/create
+          Code : 
+                POST /employee/api/create HTTP/1.1
+                Host: localhost:9000
+                Content-Type: application/json
+                Cache-Control: no-cache
+                Postman-Token: 02501aeb-102a-4260-8424-e5f3e22dbb50
+
+                {
+                "name"   : <"mention the name">,
+                "salary" : <mention the salary>
+                }
      
-     read : 
+     Read : 
            method : GET , API endpoint : http://localhost:9000/employee/api/read/{id}              -give the id.
-     
-     update : 
+        Code : 
+             GET /employee/api/read/<mention the id> HTTP/1.1
+             Host: localhost:9000
+             Cache-Control: no-cache
+             Postman-Token: d5c92f46-ff9c-4b92-a59e-999124f734df
+        
+        
+     Update : 
            method : PUT , API endpoint : http://localhost:9000/employee/api/update
-     
-     delete : 
+       Code : 
+             PUT /employee/api/update HTTP/1.1
+             Host: localhost:9000
+             Content-Type: application/json
+             Cache-Control: no-cache
+             Postman-Token: a924eca8-6f9e-453d-9989-484732b7f08d
+
+             {
+	           "id"     : <mention the id>,
+	           "name"   : <"mention the name">,
+	           "salary" : <mention the salary>
+             }
+    
+    
+    Delete : 
            method : DELETE , API endpoint : http://localhost:9000/employee/api/delete/{id}         -give the id.
-     
+      Code : 
+            DELETE /employee/api/delete/<mention the id> HTTP/1.1
+            Host: localhost:9000
+            Cache-Control: no-cache
+            Postman-Token: ec7792b5-e737-4163-ae26-c7b21c2d3913
+            Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+
      
      After hitting the Rest APIs and the MySQL database, the results wil be displayed in postman as well as console of the IntelliJ IDEA.
 
