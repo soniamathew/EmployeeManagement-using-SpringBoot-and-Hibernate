@@ -18,6 +18,10 @@ Frameworks to be familiarised :
                               Spring Boot with Gradle
                               Hibernate
 
+Web Service to be familiarised :
+
+                                RESTful Web Service
+                                
 Installations :
 
     IDE to be installed    : Download and install IntelliJ IDEA from https://www.jetbrains.com/idea/download/#section=mac .
