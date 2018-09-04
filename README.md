@@ -31,9 +31,30 @@ Installations :
     
     REST Web Service Requirements : Download and install Postman from https://www.getpostman.com/apps
 
+
+
+Downloading the project from GitHub :
+     
+    Navigate to your repository’s Code tab.
+    
+    Click Clone or download.
+    
+    Copy the URL provided.
+    
+    Open your command line or Terminal application and enter the directory where you would like to copy the repository : cd ~/
+    
+    Clone the repository by replacing <URL> with clone URL you copied in the previous step. The repository will be cloned         into a new directory in this location :  git clone <URL>
+     
+    Navigate into the directory of the repository you just created. Replace with your own repository's name :  
+    cd <REPOSITORY-NAME>
+    
+    Type : git status ,to verify the current state of your repository and the files it contains. 
+    
+    
+    
 Configurations : 
 
-        The configurations for the database connection was given in the application.properties file in the project resources.
+        Give the configurations of your databse including your datasource url, user name and password in application.properties in your : employee90/src/main/resources/application.properties
 
 
 
@@ -43,15 +64,8 @@ Configurations :
 ----------------------------------
 
 
- In IntelliJ IDEA :
 
-     Build the project using : ./gradlew build
-     Run the Employee Application.
-     Then the SpringBoot Application class will be run, tomcat will get started on port 9000 and mysql connection is also made.
-
-
-
- In MySQL.prefpane :
+In MySQL.prefpane :
 
      Start the mysql server in MySQL server 
 
@@ -70,6 +84,12 @@ Configurations :
     `salary` VARCHAR(45) NOT NULL,
      PRIMARY KEY (`id`));
 
+
+ In IntelliJ IDEA :
+
+     Build the project, in the terminal using : ./gradlew build
+     Run the Employee Application.
+     Then the SpringBoot Application class will be run, tomcat will get started on port 9000 and mysql connection is also          made.
 
 
  In Postman :
@@ -96,36 +116,4 @@ Configurations :
 
 
 
-
- PROGRAM LOGIC 
--------------------------
-
-Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that can run.
-
-Hibernate understands the mappings that we add between objects and tables and it ensures that data is stored/retrieved from the database based on the mappings.
-Hibernate also provides additional features on top of JPA.
-
-Here in this project we are having the following classes:
-
-The POJO class : 
-         Employee ,inside the package : com.employee.employee.sample.entity .
-
-The Controller class :
-         EmployeeManagementController, inside the package : com.employee.employee.controller .
-
-The Service Implemenation class : 
-         EmployeeManagementService, inside the package : com.employee.employee.service .
-
-The Service Interface : 
-         IEmployeeManagementService, inside the package : com.employee.employee.service .
-
-The main class or the Application classs :
-         EmployeeApplication, inside the package : com.employee.employee .
-
-The DAO Interface : 
-         EmployeeDaoInterface, inside the package : com.employee.employee.sample.dao . (it extends the CRUD repository)
-
-There is also an AppConfig class inside the package : com.employee.employee.sample.config , but this is used only if we are using datasource,since we are using Hibernate it was commented.
-
-When we run the Application, the tomcat will get started at port 9000, then start the MySQL server and connect the local host in the MySQL Workbench, after hitting the Rest API in Postman, the control will go to the EmployeeManagementController and from there control goes to EmployeeManagementService and EmployeeDaoInterface and then it responds with various status after performing the operations.
 
