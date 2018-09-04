@@ -29,7 +29,7 @@ Installations :
     Database requirements  : Download and install MySQL 8.0.12 from https://dev.mysql.com/downloads/mysql/ .
                              Download and install MySQL Workbench from https://dev.mysql.com/downloads/workbench/ .
     
-    Open the MySQL.prefpane and give the user name and password for the server. Configure the Workbench localhost by               connecting it with the MySQL server giving the user name and password.
+    Open the MySQL.prefpane and give the user name and password for the server. Configure the Workbench localhost by connecting it with the MySQL server giving the user name and password.
     
     REST Web Service Requirements : Download and install Postman from https://www.getpostman.com/apps
 
