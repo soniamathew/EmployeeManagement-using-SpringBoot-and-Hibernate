@@ -67,7 +67,7 @@ Configurations :
 
 In MySQL.prefpane :
 
-     Start the mysql server in MySQL server 
+     Start the mysql server in MySQL MYSQL.prefpane . 
 
 
 
@@ -87,8 +87,14 @@ In MySQL.prefpane :
 
  In IntelliJ IDEA :
 
-     Build the project, in the terminal using : ./gradlew build
+     Build the project, in the terminal using : ./gradlew build or click gradle tab and then click /Task/build .
+     ![alt text](http://url/to/1.png)
+     
+     
      Run the Employee Application.
+     ![alt text](http://url/to/2.png)
+     
+     
      Then the SpringBoot Application class will be run, tomcat will get started on port 9000 and mysql connection is also          made.
 
 
