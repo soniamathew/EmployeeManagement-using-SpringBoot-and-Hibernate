@@ -16,14 +16,13 @@ Languages to be known :
 Frameworks to be familiarised : 
 
                               Spring Boot with Gradle
-                              Datasource
+                              Hibernate
 
 Web Service to be familiarised :
 
                                 RESTful Web Service
 				
-Database Migration performed using : Flyway.				
-                                
+
 Installations :
 
     IDE to be installed    : Download and install IntelliJ IDEA from https://www.jetbrains.com/idea/download/#section=mac .
