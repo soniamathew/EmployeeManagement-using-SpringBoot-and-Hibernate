@@ -1,4 +1,4 @@
-EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND HIBERNATE :
+EMPLOYEE MANAGEMENT RESTFUL WEB SERVICE USING SPRINGBOOT AND FLYWAY :
 -----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -16,11 +16,13 @@ Languages to be known :
 Frameworks to be familiarised : 
 
                               Spring Boot with Gradle
-                              Hibernate
+                              Datasource
 
 Web Service to be familiarised :
 
                                 RESTful Web Service
+				
+Database Migration performed using : Flyway.				
                                 
 Installations :
 
@@ -73,7 +75,7 @@ In MySQL.prefpane :
 
 
 
- In the MySQLWokrkbench :
+ In the MySQLWokrkbench : (These steps are not needed when we are using Flyway, this can be done during versioning of data.)
 
     * First create a database named employeez using the query :
     CREATE SCHEMA `employeez` ;
@@ -163,6 +165,9 @@ In MySQL.prefpane :
      After hitting the Rest APIs and the MySQL database, the results wil be displayed in postman as well as console of the IntelliJ IDEA.
 
 
+DataBase Migrations using Flyway : 
 
+     For this we can make use of Flyway. Flyway is a data migration tool. For this we have created a db/migration folder in resoures of the project . We can use DDL and DML commands for data migration. We are performing migration using versioning. In the beginning we are creating the database table using the Create query in V1__employee.sql, as we build the project the MySQL connections will be made and we can perform the first version. Since we are using flyway a flyway_schema_history table will be created automatically it shows the history of the versioning when we view the table.The table has a checksum that differentiates between each version. The success or failure of a version can also be found in the table.
+     In version 2, we are adding a column to the table . Then in version 3, we are renaming the table.
 
 
